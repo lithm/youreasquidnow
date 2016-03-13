@@ -3,6 +3,6 @@ my @list = ['k', 'squ'];
 
 loop {
   for @list -> $item {
-    say "You're a " ~ $item ~ "id now!";
+    say "You're a {$item}id now!";
   }
 }
