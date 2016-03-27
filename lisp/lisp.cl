@@ -1,5 +1,3 @@
 (loop
-  (mapcar
-    (lambda (x)
-      (format t "You're a ~Aid now!~%" x))
-  '("k" "squ")))
+     (dolist (x '("k" "squ"))
+       (format t "You're a ~Aid now!~%" x)))
